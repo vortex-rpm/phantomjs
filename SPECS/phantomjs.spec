@@ -7,9 +7,6 @@ License:	BSD
 Group:		Utilities/Misc
 URL:		http://phantomjs.org
 Source0:	%{name}-%{version}.tar.gz
-BuildRequires:	gcc
-BuildRequires:	gcc-c++
-BuildRequires:	make
 BuildRequires:	flex
 BuildRequires:	bison
 BuildRequires:	gperf
