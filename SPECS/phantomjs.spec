@@ -42,8 +42,8 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{buildroot}%{_bindir}/%{name}
-%{buildroot}%{_datadir}/%{name}/examples
+%{_bindir}/%{name}
+%{_datadir}/%{name}/examples
 %doc CONTRIBUTING.md ChangeLog LICENSE.BSD README.md
 
 %changelog
