@@ -1,12 +1,12 @@
 Summary:	Scriptable Headless WebKit
 Name:		phantomjs
-Version:	1.9.7
+Version:	2.0.0
 Release:	1.vortex%{?dist}
 Vendor:		Vortex RPM
 License:	BSD
 Group:		Utilities/Misc
 URL:		http://phantomjs.org
-Source0:	%{name}-%{version}.tar.gz
+Source0:	%{name}-%{version}.tar.xz
 BuildRequires:	flex
 BuildRequires:	bison
 BuildRequires:	gperf
@@ -47,5 +47,8 @@ rm -rf %{buildroot}
 %doc CONTRIBUTING.md ChangeLog LICENSE.BSD README.md
 
 %changelog
-* Fri Dec 25 2016 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 1.9.7-1.vortex
+* Tue Dec 29 2015 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 2.0.0-1.vortex
+- Update to 2.0.0.
+
+* Fri Dec 25 2015 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 1.9.7-1.vortex
 - Initial packaging.
